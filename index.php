@@ -3,8 +3,6 @@
 error_reporting(E_ALL);
 ini_set("display_errors", true);
 
-define('LOCAL_PATH', dirname(__DIR__));
-
 require 'app/bootstrap.php';
 
 use App\Database\DatabaseConnection;
